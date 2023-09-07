@@ -47,7 +47,7 @@ theme_set(theme_classic())
 ```
 
 ```{r,message=FALSE,echo=FALSE}
-police_texas<-read.csv("C:/Users/Fer_c/OneDrive/Escritorio/VIS_FINALP/37-00049_UOF-P_2016_prepped.csv",header=T)
+police_texas<-read.csv("37-00049_UOF-P_2016_prepped.csv",header=T)
 police_texas<-police_texas[-1,]
 attach(police_texas)#Allows you to call variables within the dataset
 ```
